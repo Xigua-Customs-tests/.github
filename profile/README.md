@@ -1,4 +1,4 @@
-# Build LineageOS for OnePlus12R
+# Build LineageOS for OnePlus Ace 2 Pro
 
 ## Prerequisites
 - refer to [AOSP](https://source.android.com/docs/setup/start/requirements)
@@ -9,9 +9,9 @@
     repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
     ```
 
-2. Clone [local_manifests](https://github.com/OnePlus12R-development/local_manifests)
+2. Clone [local_manifests](https://github.com/Xigua-Customs-tests/local_manifests)
     ```
-    git clone https://github.com/OnePlus12R-development/local_manifests -b lineage-21 .repo/local_manifests
+    git clone https://github.com/Xigua-Customs-tests/local_manifests -b lineage-21 .repo/local_manifests
     ```
 
 3. Sync
@@ -22,7 +22,7 @@
 4. Build
     ```
     . build/envsetup.sh
-    lunch lineage_aston-ap2a-userdebug
+    lunch lineage_xigua-ap2a-userdebug
     mka bacon
     ```
     Compiling source can take anywhere from 30 mins - 4hrs depending on how powerful your hardware is,
