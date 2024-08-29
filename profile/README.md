@@ -26,4 +26,4 @@
     mka bacon
     ```
     Compiling source can take anywhere from 30 mins - 4hrs depending on how powerful your hardware is,
-    After successful build, you can find your flashable rom zip at ```out/target/product/aston/```
+    After successful build, you can find your flashable rom zip at ```out/target/product/xigua/```
